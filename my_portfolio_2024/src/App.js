@@ -1,10 +1,12 @@
 import './App.css';
+import Header from "./pages/header/header.jsx";
+
 
 function App() {
   return (
-    <p>
-      Edit <code>src/App.js</code> and save to reload.
-    </p>
+    <>
+      <Header />
+    </>
   );
 }
 
